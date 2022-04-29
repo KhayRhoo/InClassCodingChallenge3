@@ -26,12 +26,13 @@ countLetters('We love this city a lot, sometimes', 'e') returns 4
 function howMany(words, letter){
     var countLetters = 0;
 
-//    for (var position = 0; position < words.length; position++){ //
-//        if (words.charAt(position) == letter){ //charAt is basically position. So the position of words is 0 == the letter
-//            countLetters += 1; //
-//        }
-//    }
+   for (var position = 0; position < words.length; position++){ //words.lenth prints the amount of characters in words.
+       if (words.charAt(position) == letter){ //charAt is basically position. So the position of words is 0 == the letter.
+           countLetters += 1; //Increment?
+       }
+   }
     return countLetters;
 }
 
 console.log(howMany('Hello wendy, we will see william later.', 'w'));
+//While I did everything else,I found this answer online. I tried sprending my time to understand it.
