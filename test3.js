@@ -36,3 +36,6 @@ function howMany(words, letter){
 
 console.log(howMany('Hello wendy, we will see william later.', 'w'));
 //While I did everything else,I found this answer online. I tried sprending my time to understand it.
+
+const myfunction = (num1,num2) => num1 + " is my favorite number";
+console.log(myfunction(6));
